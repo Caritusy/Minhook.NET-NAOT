@@ -1,10 +1,12 @@
-# MinHook.NET
+# MinHook.NET-NAOT
 
 ## Introduction
 
 MinHook.NET is a pure managed C# port of the brilliant MinHook library by Tsuda Kageyu (https://github.com/TsudaKageyu/minhook).  The library has the capability of inline hooking native API calls, utilising .NET delegates for both the detoured and original function that is commonly called with the detour.
 
 The project has attempted to keep within the simplistic spirit of the original MinHook library.
+
+This repository is used to fixed this "attempted" glitch "dynamic code generation" in .NET8.0+ with publish NativeAOT.
 
 ## Quick Start
 
@@ -50,3 +52,4 @@ Simple example demonstrating the hooking of the MessageBoxW Windows API
 
 * The original MinHook library that this project is based on - https://github.com/TsudaKageyu/minhook
 * The SharpDisasm project and Udis86 disassembler that the project is ported from -  https://github.com/spazzarama/SharpDisasm
+* The original MinHook.Net library that this project is base on - https://github.com/CCob/MinHook.NET
