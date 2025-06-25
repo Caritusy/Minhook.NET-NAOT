@@ -47,7 +47,6 @@ Simple example demonstrating the hooking of the MessageBoxW Windows API
 * Figure out how to calculate imm length with ModRM based instructions
 * When enabling hooks, enumerate threads and update thread context if any are running at the hook instructions that are being patched
 * Implement unit tests
-* When hooking a virtual function,it crashes
 
 ## Thanks
 
