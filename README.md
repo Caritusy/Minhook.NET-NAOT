@@ -8,6 +8,8 @@ The project has attempted to keep within the simplistic spirit of the original M
 
 This repository is used to fixed this "attempted" glitch "dynamic code generation" in .NET8.0+ with publish NativeAOT.
 
+If you want a better Native-Minhook for .NET, Check out [MinHook.LibraryImport.NET](https://github.com/atomsk-0/MinhookNET).
+
 ## Quick Start
 
 Simple example demonstrating the hooking of the MessageBoxW Windows API
